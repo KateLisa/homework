@@ -132,4 +132,12 @@ a {
   margin-bottom: 20px;
   display: inline-block;
 }
+
+.page {
+  width: 1100px;
+  margin: 0 auto;
+}
+.caption {
+  font-size: 40px;
+}
 /* Позиционирование. блочная модель. типографика. оформление. анимации */
