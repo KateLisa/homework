@@ -139,5 +139,84 @@ a {
 }
 .caption {
   font-size: 40px;
+  font-weight: lighter;
 }
+.body {
+  width: 1020px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.header {
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.item {
+  list-style-type: none;
+}
+.items {
+  list-style-type: none;
+  height: 400px;
+  width: 350px;
+  background-repeat: no-repeat;
+}
+
+.first {
+  width: 400px;
+  height: 150px;
+  background-image: url("../img/15.png");
+  background-size: cover;
+}
+.second {
+  width: 400px;
+  height: 150px;
+  background-image: url("../img/155.png");
+  background-size: cover;
+}
+
+.third {
+  width: 400px;
+  height: 150px;
+  background-image: url("../img/153.png");
+  background-size: cover;
+}
+
+.fourth {
+  width: 400px;
+  height: 150px;
+  background-image: url("../img/156.png");
+  background-size: cover;
+}
+
+.box {
+  box-shadow: 0px 0px 5px 5px;
+  width: 400px;
+  height: 420px;
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+.box::after {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  counter-increment: numbers;
+  content: counter(numbers);
+}
+
+.titlelist {
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 /* Позиционирование. блочная модель. типографика. оформление. анимации */
