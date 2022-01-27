@@ -137,7 +137,6 @@ a {
   width: 1100px;
   margin: 0px;
   margin: auto;
-  height: 1800px;
 }
 .caption {
   font-size: 40px;
@@ -241,5 +240,6 @@ a {
   background-image: url(/img/Фигура\ 1.svg);
   background-repeat: no-repeat;
   background-position: bottom;
+  padding-bottom: 500px;
 }
 /* Позиционирование. блочная модель. типографика. оформление. анимации */
