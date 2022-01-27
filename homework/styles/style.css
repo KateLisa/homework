@@ -156,7 +156,7 @@ a {
 
 .item {
   list-style-type: none;
-  counter-reset: numbers;
+  counter-reset: numbers; /* позволяет пронумеровать */
 }
 .items {
   list-style-type: none;
@@ -205,8 +205,8 @@ a {
   position: absolute;
   right: 10px;
   bottom: 10px;
-  counter-increment: numbers;
-  content: "0" counter(numbers);
+  counter-increment: numbers; /* свойство приращения */
+  content: "0" counter(numbers); /* свойство содержимого */
   font-size: 48px;
   color: grey;
 }
