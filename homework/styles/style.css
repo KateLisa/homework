@@ -156,6 +156,7 @@ a {
 
 .item {
   list-style-type: none;
+  counter-reset: numbers;
 }
 .items {
   list-style-type: none;
@@ -205,7 +206,7 @@ a {
   right: 10px;
   bottom: 10px;
   counter-increment: numbers;
-  content: counter(numbers);
+  content: "0" counter(numbers);
   font-size: 48px;
   color: grey;
 }
