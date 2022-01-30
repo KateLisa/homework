@@ -56,11 +56,13 @@ a {
   height: 100vh;
   background-color: #222020;
 }
+
 .heading {
   color: #fff;
   font-family: "Graphik LCG", sans-serif;
   margin-bottom: 30px;
 }
+
 .download {
   color: #fff;
   padding: 20px;
@@ -120,6 +122,7 @@ a {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 .table th,
 .table td {
   padding: 5px;
@@ -138,65 +141,75 @@ a {
   margin: 0px;
   margin: auto;
 }
+
 .caption {
   font-size: 40px;
   font-weight: lighter;
 }
+
 .bodies {
   width: 1020px;
   margin-left: 80px;
   margin-right: 80px;
 }
+
 .header {
   font-size: 48px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.item {
-  list-style-type: none;
-  counter-reset: numbers; /* позволяет пронумеровать */
-}
+.item,
 .items {
-  list-style-type: none;
-  height: 400px;
-  width: 350px;
+  list-style-type: none; /* без маркеров списка */
+}
+
+.item {
+  counter-reset: numbers; /* позволяет пронумеровать */
+  padding-inline-start: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items {
   background-repeat: no-repeat;
+  padding-inline-start: 0px;
+  overflow-y: auto;
+  max-height: 150px;
+}
+
+.box-text {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
 }
 
 .first {
-  width: 400px;
-  height: 150px;
   background-image: url("../img/15.png");
-  background-size: cover;
 }
+
 .second {
-  width: 400px;
-  height: 150px;
   background-image: url("../img/155.png");
-  background-size: cover;
 }
 
 .third {
-  width: 400px;
-  height: 150px;
   background-image: url("../img/153.png");
-  background-size: cover;
 }
 
 .fourth {
-  width: 400px;
-  height: 150px;
   background-image: url("../img/156.png");
-  background-size: cover;
 }
 
 .box {
-  box-shadow: 0px 0px 5px 5px;
+  box-shadow: 0px 0px 5px 5px #eee;
   width: 400px;
   height: 420px;
   margin: 40px;
-  display: inline-block;
   position: relative;
 }
 
@@ -210,18 +223,18 @@ a {
   color: grey;
 }
 
-.titlelist {
+.title-list {
   font-size: 36px;
   color: #2f1ce4;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-bottom: 5px;
-}
-
-.li {
-  font-size: 16px;
+  margin: 0px;
   margin-bottom: 10px;
 }
+
+.items li {
+  font-size: 16px;
+  margin: 5px;
+}
+
 .button {
   padding-left: 60px;
   padding-right: 60px;
@@ -232,7 +245,7 @@ a {
   background-color: #fff;
 }
 
-.boxbutton {
+.box-button {
   text-align: center;
 }
 
