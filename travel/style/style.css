@@ -83,6 +83,7 @@ body {
 
 .header-btn {
   border-left: 1px solid #e1e1e1;
+  padding-left: 50px;
 }
 
 .btn-font {
@@ -162,22 +163,57 @@ body {
 .one {
   background-image: url(/img/Rectangle\ 15.jpg);
   margin-bottom: 20px;
+  height: 260px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .two {
   background-image: url(/img/Rectangle\ 16.jpg);
+  height: 260px;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.suggestion {
+  width: 570px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  background-size: cover;
+  padding: 40px;
 }
 
 .tree {
   background-image: url(/img/33\ 1.jpg);
   height: 540px;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: 210px;
 }
 
-.suggestion {
-  width: 570px;
-  height: 260px;
-  border-radius: 15px;
-  color: white;
-  font-weight: 700;
-  background-size: cover;
+.price {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.big-price {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.more {
+  color: #ffcc66;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.suggestion-text {
+  width: 300px;
+}
+.about-trip {
+  padding-top: 10px;
 }
