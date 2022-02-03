@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerLight.woff2") format("woff2"),
+    url("../fonts/MullerLight.woff") format("woff");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box; /* чтобы паддиги не влиял на внешний размер элемента, чтобы они правились за счет внутреннего размера*/
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Muller", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 55px;
+}
+
+.header-left {
+  background-image: url(/img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+}
+
+.header-btn {
+  border-left: 1px solid #e1e1e1;
+}
+
+.btn-font {
+  color: #cc9933;
+  font-size: 16px;
+}
+
+.btn {
+  border-radius: 15px;
+  border-color: #cc9933;
+  background-color: white;
+  padding: 13px 20px;
+  margin-right: 45px;
+}
+
+.phone {
+  color: #666666;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-right: auto;
+}
+
+.logo {
+  width: 260px;
+  height: 54px;
+  border-radius: 15px;
+}
+
+.nav-header {
+  background-color: white;
+  height: 70px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.nav-link {
+  color: #666666;
+  font-size: 16px;
+}
+
+.nav-item {
+  padding-left: 45px;
+}
+
+.nav-item.is-active.nav-link {
+  color: #cc9933;
+}
+
+.h2 {
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.suggestions {
+  display: flex;
+}
+
+.bigtext {
+  flex: 45%;
+}
+
+.bigtext:not(:last-child) {
+  margin-right: 20px;
+}
+
+.one {
+  background-image: url(/img/Rectangle\ 15.jpg);
+  margin-bottom: 20px;
+}
+
+.two {
+  background-image: url(/img/Rectangle\ 16.jpg);
+}
+
+.tree {
+  background-image: url(/img/33\ 1.jpg);
+  height: 540px;
+}
+
+.suggestion {
+  width: 570px;
+  height: 260px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  background-size: cover;
+}

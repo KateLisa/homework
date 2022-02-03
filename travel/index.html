@@ -1,45 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style/normalize.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Travel</title>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-right"> <img src="/img/logo.svg" alt="logo"> <a href="tel:375256360025">+375256360025</a>
-            </div>
-            <div class="header-left"> Личный кабинет</div>
+            <section class="header-info">
+                <img class="logo" src="/img/logo.svg" alt="logo">
+                <a class="phone" href="tel:375256360025">+375256360025</a>
+                <div class="header-left"> <a class="btn-font" href="">Личный кабинет</a></div>
+            </section>
             <div class="nav-header">
-                <div class="nav-right">
-                    <ul>
-                        <li>О нас</li>
-                        <li> Услуги</li>
-                        <li> Преимущества</li>
-                        <li> Размещение</li>
-                        <li> Блог </li>
-                        <li> Контакты</li>
-                    </ul>
-                </div>
-                <div class="header-btn"> <button class="btn"> Хочу тур</button> <button class="btn"> Обратный
-                        звонок</button> </div>
+                <ul class="nav-list">
+                    <li class="nav-item is-active"><a href="" class="nav-link">О нас</a></li>
+                    <li class="nav-item is-active"> <a href="" class="nav-link">Услуги</a></li>
+                    <li class="nav-item is-active"> <a href="" class="nav-link">Преимущества</a></li>
+                    <li class="nav-item is-active"> <a href="" class="nav-link">Размещение</a></li>
+                    <li class="nav-item is-active"> <a href="" class="nav-link">Блог</a> </li>
+                    <li class="nav-item is-active"> <a href="" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="header-btn"> <button class="btn btn-font"> Хочу тур</button> <button class="btn btn-font">
+                        Обратный звонок</button> </div>
             </div>
         </div>
     </header>
     <main class="main">
         <div class="container">
             <h2 class="h2"> Спецпредложения</h2>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="box suggestions">
+                <li class="text bigtext">
+                    <div class="suggestion one">Мальдивские острова
+                        <p>от 55000р</p>
+                        <p class="more about-trip">Подробнее</p>
+                    </div>
+                    <div class="suggestion two"> Горящий тур на остров Крит
+                        <p>от 30000р</p>
+                        <p class="more about-trip">Подробнее</p>
+                    </div>
+                </li>
+                <li class="text bigtext">
+                    <div class="suggestion tree"> Номера категории люкс
+                        <p>от 5000р</p>
+                        <p class="more about-trip">Подробнее</p>
+                    </div>
+                </li>
             </ul>
-
         </div>
+        <article>
+            <div class="container">
+                <h2 class="h2"> О нас</h2>
+                <p class="usual-text">Идейные соображения высшего порядка, а также сложившаяся структура организации
+                    влечет за собой
+                    процесс
+                    внедрения и
+                    модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения
+                    высшего
+                    порядка, а также
+                    дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки
+                    системы
+                    обучения
+                    кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации
+                    требуют
+                    определения и
+                    уточнения существенных финансовых и административных условий. </p>
+            </div>
+        </article>
+        <section class="services">
+            <div class="container">
+                <h2 class="h2">Услуги</h2>
+                <ul class="box service">
+                    <li>
+                        <div class="img-box"></div>
+                        <div class="text">
+                            <p class="more about-servises"> Эксклюзивное обслуживание</p>
+                            <p class="usual-text">Равным образом постоянный количественный рост и сфера нашей активности
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"></div>
+                        <div class="text">
+                            <p class="more about-servises"> Аренда банкетных залов</p>
+                            <p class="usual-text">Значимость этих проблем настолько очевидна, что дальнейшее развитие
+                                различных форм.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"></div>
+                        <div class="text">
+                            <p class="more about-servises"> Сауны, бассейны, бани, фитнес-залы</p>
+                            <p class="usual-text">Не следует, однако забывать, что начало повседневной работы по
+                                формированию позиции </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"></div>
+                        <div class="text">
+                            <p class="more about-servises"> Охраняемые автомобильные стоянки</p>
+                            <p class="usual-text">Не следует, однако забывать, что начало повседневной работы по
+                                формированию позиции </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="benefit">
+            <div class="container">
+                <ul class="box benefits">
+                    <li class="text">
+                        <div class="benefits-img first"> </div>
+                        <p class="usual-text">Идейные соображения высшего порядка, а также постоянный
+                            количественный рост </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img second"> </div>
+                        <p class="usual-text">Значимость этих проблем настолько очевидна, что вопрос
+                            остается открытым </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img third"></div>
+                        <p class="usual-text"> Таким образом реализация плановых заданий играет важную
+                            роль для понимания </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img fourth"></div>
+                        <p class="usual-text">Повседневная практика показывает, что сложившаяся
+                            структура организации </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img fifth"> </div>
+                        <p class="usual-text">Равным образом рамки и место обучения кадров способствует
+                            подготовки сотрудника </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img sixth"> </div>
+                        <p class="usual-text">Консультация с активом влечет за собой процесс внедрения
+                            услуг нашего сервиса </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img seventh"></div>
+                        <p class="usual-text">Повседневная практика показывает, что дальнейшее
+                            развитие различных форм </p>
+                    </li>
+                    <li class="text">
+                        <div class="benefits-img eighth"></div>
+                        <p class="usual-text">Значимость этого настолько очевидна, что консультация
+                            наших экспертов помогает </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="accommodation">
+            <div class="container">
+                <h2 class="h2">Размещение</h2>
+                <ul class="box-accomandation">
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 4698 р</b>/ночь
+                            <img src="" alt="raiting 4/5">
+                            <p><b>Lagoona espanola</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 5148 р</b>/ночь
+                            <img src="" alt="raiting 4/5">
+                            <p><b>Lagoona son tipicas</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6254 р</b>/ночь
+                            <img src="" alt="raiting 5/5">
+                            <p><b>Lagoona de la guerra</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6320 р</b>/ночь
+                            <img src="" alt="raiting 5/5">
+                            <p><b>Lagoona mentira piadosa</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6457 р</b>/ночь
+                            <img src="" alt="raiting 4/5">
+                            <p><b>Lagoona empujar la creatividad</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6320 р</b>/ночь
+                            <img src="" alt="raiting 4/5">
+                            <p><b>Lagoona el retorno</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6505 р</b>/ночь
+                            <img src="" alt="raiting 5/5">
+                            <p><b>Lagoona mentira piadosa</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box"><img src="" alt="hotel lagoona"></div>
+                        <div class="text">
+                            от <b> 6824 р</b>/ночь
+                            <img src="" alt="raiting 4/5">
+                            <p><b>Lagoona suetre siguio siempre</b></p>
+                            <p class="country">Барселона, Испания</p>
+                        </div>
+                    </li>
+                    <li><img src="" alt="accommodation"> Посмотреть все варианты</li>
+                </ul>
+            </div>
+        </section>
     </main>
 </body>
 
