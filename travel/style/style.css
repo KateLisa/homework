@@ -284,6 +284,55 @@ body {
   display: inline-block;
   margin-bottom: 20px;
 }
+
 .servise-box:nth-child(odd) {
   margin-right: 20px;
+}
+
+.benefit-box {
+  width: 269px;
+  min-height: 275px;
+  background-color: #fff;
+  padding: 40px;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 10px;
+  line-height: 32px;
+}
+
+.benefits-img {
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+.first {
+  background-image: url(/img/bathtub.svg);
+}
+
+.second {
+  background-image: url(/img/hanger.svg);
+}
+
+.third {
+  background-image: url(/img/heating.svg);
+}
+
+.fourth {
+  background-image: url(/img/hotel-key.svg);
+}
+
+.fifth {
+  background-image: url(/img/parking.svg);
+}
+
+.sixth {
+  background-image: url(/img/reception.svg);
+}
+
+.seventh {
+  background-image: url(/img/security-box.svg);
+}
+
+.eighth {
+  background-image: url(/img/swimming-pool.svg);
 }
