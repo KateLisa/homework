@@ -234,6 +234,7 @@ body {
   font-weight: 700;
   background-size: cover;
   padding: 40px;
+  position: relative;
 }
 
 .tree {
@@ -274,8 +275,32 @@ body {
   background-position: right center;
   padding-right: 20px;
 }
-.about-trip:active {
+
+.about-trip:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.about-trip:focus::before {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  outline: 1px solid var(--main-font-color);
+  outline-offset: 5px;
+}
+
+.about-trip:hover {
   color: #fff;
+}
+
+.about-trip:active {
+  color: #f1f1f1;
 }
 
 .services__text {
@@ -283,6 +308,7 @@ body {
   line-height: 32px;
   font-size: 16px;
 }
+
 .services__img,
 .services__box-text {
   width: 570px;
@@ -317,8 +343,7 @@ body {
   background-image: url(/img/13.jpg);
 }
 
-.services__link,
-.services__link:focus {
+.services__link {
   color: var(--main-font-color);
   background-image: url(/img/arrow.svg);
   font-weight: 500;
@@ -329,8 +354,29 @@ body {
   padding-right: 20px;
 }
 
+.services__link::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.services__link:focus::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  outline: 1px solid var(--main-font-color);
+  outline-offset: 5px;
+}
+
 .services__link:hover {
   color: #e9c479;
+  background-image: url(/img/arrow\ light.svg);
 }
 
 .services__link:active {
@@ -340,6 +386,7 @@ body {
 .services__box {
   display: inline-block;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .services__box:nth-child(odd) {
