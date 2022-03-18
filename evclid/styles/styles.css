@@ -34,6 +34,7 @@
 :root {
   --main-btn-color: #ff9900;
   --main-font-color: #fff;
+  --title-color: #333;
 }
 
 * {
@@ -139,12 +140,12 @@ body {
   font-size: 20px;
 }
 
-.about-us__title {
+.title {
   margin: 75px 0px 10px;
   font-weight: 400;
   font-size: 43px;
   line-height: 55px;
-  color: #333;
+  color: var(--title-color);
 }
 
 .about-us__text {
@@ -152,18 +153,22 @@ body {
   font-size: 15px;
   line-height: 25px;
   font-weight: 300px;
-  color: #333;
+  color: var(--title-color);
   margin-bottom: 45px;
 }
 
 .about-us__img {
   height: 500px;
   width: 700px;
-  position: absolute;
+  /* position: absolute; */
+  /* position: relative; */
 }
 
 .about-us__img-background {
-  position: relative;
+  /* position: absolute; */
+  /* position: relative; */
+  /* top: 50%;
+  left: 50%; */
   display: flex;
   width: 700px;
   bottom: 0px;
@@ -182,5 +187,9 @@ body {
   border: 3px solid var(--main-btn-color);
   color: var(--main-font-color);
   margin-left: 30px;
-  height: 50px;
+  height: ;
+}
+
+.title-small {
+  color: var(--title-color);
 }
