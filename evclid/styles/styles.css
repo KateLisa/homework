@@ -159,7 +159,7 @@ body {
 
 .about-us__img {
   height: 500px;
-  width: 700px;
+  /* width: 49%; */
 }
 
 .about_us__container-img {
@@ -170,7 +170,7 @@ body {
   position: absolute;
   left: 0px;
   display: flex;
-  width: 700px;
+  /* width: 49%; */
   height: 160px;
   bottom: 0px;
   padding: 40px;
@@ -192,11 +192,51 @@ body {
   padding: 10px 25px;
   border: 3px solid var(--main-btn-color);
   color: var(--main-font-color);
-  margin-left: 30px;
-  /* height: 50px;
-  width: ; */
 }
 
 .title-small {
   color: var(--title-color);
+}
+
+.about-us__box {
+  border: 1px solid #cacaca;
+  padding: 65px;
+}
+
+.img1 {
+  background-image: url(/img/Frame\ 16.svg);
+}
+
+.img2 {
+  background-image: url(/img/Frame\ 12.svg);
+}
+
+.about-us__box-img {
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+
+.about-us__box {
+  display: flex;
+  width: 100%;
+  max-height: 240px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.about-us__boxes {
+  display: flex;
+  /* display: inline-block; */
+}
+
+.about-us__box-text {
+  width: 350px;
+  line-height: 28px;
+}
+
+.about-us__box-title {
+  margin-bottom: 20px;
 }
