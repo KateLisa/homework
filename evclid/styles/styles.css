@@ -160,34 +160,41 @@ body {
 .about-us__img {
   height: 500px;
   width: 700px;
-  /* position: absolute; */
-  /* position: relative; */
+}
+
+.about_us__container-img {
+  position: relative;
 }
 
 .about-us__img-background {
-  /* position: absolute; */
-  /* position: relative; */
-  /* top: 50%;
-  left: 50%; */
+  position: absolute;
+  left: 0px;
   display: flex;
   width: 700px;
+  height: 160px;
   bottom: 0px;
-  padding: 50px;
+  padding: 40px;
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-us__imgtext {
   color: var(--main-font-color);
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 14px;
+  max-width: 55%;
 }
 
 .about-us__link {
-  padding: 10px 30px;
+  padding: 10px 25px;
   border: 3px solid var(--main-btn-color);
   color: var(--main-font-color);
   margin-left: 30px;
-  height: ;
+  /* height: 50px;
+  width: ; */
 }
 
 .title-small {
