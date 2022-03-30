@@ -36,6 +36,7 @@
   --main-font-color: #fff;
   --title-color: #333;
   --font-color: #cacaca;
+  --status-color: #e1670e;
 }
 
 * {
@@ -60,6 +61,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+path {
+  fill: inherit;
+}
+
 .container {
   width: 1420px;
   margin-left: auto;
@@ -79,6 +84,19 @@ body {
   text-decoration: none;
   color: black;
   font-weight: 600px;
+}
+
+.header__link:hover {
+  border-bottom: 1px solid var(--main-btn-color);
+}
+
+.header__link:focus {
+  border: 1px solid var(--main-btn-color);
+}
+
+.header__link:active {
+  border: 1px solid var(--status-color);
+  color: var(--status-color);
 }
 
 .header__item {
@@ -141,6 +159,15 @@ body {
   outline: none;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: #f7b045;
+}
+
+.btn:active {
+  background: var(--status-color);
+}
+
 .title {
   margin: 75px 0px 10px;
   font-weight: 400;
@@ -198,6 +225,20 @@ body {
   padding: 10px 25px;
   border: 3px solid var(--main-btn-color);
   color: var(--main-font-color);
+}
+
+.about-us__link:hover,
+.about-us__link:focus {
+  background-color: var(--main-btn-color);
+}
+
+.about-us__link:active {
+  background-color: var(--status-color);
+  border: 3px solid var(--status-color);
+}
+
+.about-us__link:visited {
+  background-color: none;
 }
 
 .title-h3 {
@@ -282,6 +323,15 @@ body {
   margin-left: 15px;
 }
 
+.our-work__link-contract:hover,
+.our-work__link-contract:focus {
+  background-color: #666;
+}
+
+.our-work__link-contract:active {
+  background-color: #000;
+}
+
 .our-work__questions {
   margin-top: 30px;
   margin-bottom: 80px;
@@ -318,6 +368,24 @@ body {
   line-height: 29px;
 }
 
+.footer__nav-link {
+  color: var(--font-color);
+}
+
+.footer__nav-link:hover {
+  color: var(--main-btn-color);
+}
+
+.footer__nav-link:focus {
+  color: var(--font-color);
+  border: 1px solid var(--main-btn-color);
+}
+
+.footer__nav-link:active {
+  color: var(--status-color);
+  border: none;
+}
+
 .footer__nav-items {
   margin-bottom: 70px;
   width: 310px;
@@ -331,6 +399,19 @@ body {
 
 .social {
   margin-right: 15px;
+}
+
+.social:hover {
+  fill: var(--main-btn-color);
+}
+
+.social:focus {
+  fill: var(--main-btn-color);
+  border: 1px solid var(--main-btn-color);
+}
+
+.social:active {
+  fill: var(--status-color);
 }
 
 .footer__title {
@@ -351,7 +432,7 @@ body {
   height: 50px;
   margin-bottom: 15px;
   padding: 15px;
-  color: white;
+  color: var(--font-color);
   background-color: #414141;
   border: none;
 }
@@ -375,4 +456,16 @@ body {
   line-height: 25px;
   margin-top: 70px;
   padding-left: 20px;
+}
+
+.form__label {
+  font-size: 13px;
+}
+
+.form__checkbox {
+  margin-left: 20px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
 }
