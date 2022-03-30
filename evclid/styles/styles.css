@@ -120,6 +120,13 @@ path {
 .swiper {
     height: 500px;
     width: 1420px;
+    position: relative;
+}
+
+.swiper-inform {
+    position: absolute;
+    top: 0px;
+    z-index: +1;
     padding: 65px;
 }
 
@@ -463,3 +470,15 @@ path {
 input[type="checkbox"] {
     cursor: pointer;
 }
+
+
+/* .imgr {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.swiper-slide {
+    position: relative;
+} */
