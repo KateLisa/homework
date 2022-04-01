@@ -294,9 +294,17 @@ path {
     margin: 35px 0px;
 }
 
-.our-work__cards {
+.our-work__item {
     display: flex;
-    flex-grow: 1;
+    position: relative;
+}
+
+.our-work__cards {
+    display: none;
+}
+
+.our-work__cards-active {
+    display: initial;
 }
 
 .our-work__text {
@@ -305,31 +313,34 @@ path {
     font-size: 14px;
 }
 
-.our-work__inform {
+.our-work__img {
     width: 50%;
 }
 
-.our-work__links {
-    margin-top: 70px;
+.our-work__btns {
+    margin-top: 50px;
 }
 
-.our-work__link-more {
-    padding: 15px 30px;
+.our-work__btn-more {
+    padding: 15px 35px;
 }
 
-.our-work__link-contract {
+.our-work__btn-contract {
     color: var(--title-color);
-    padding: 15px 30px;
+    padding: 15px 35px;
     border: 1px solid var(--title-color);
-    margin-left: 15px;
+    margin-left: 20px;
+    background-color: #fff;
 }
 
-.our-work__link-contract:hover,
-.our-work__link-contract:focus {
+.our-work__btn-contract:hover,
+.our-work__btn-contract:focus {
     background-color: #666;
+    border: 1px solid #666;
+    color: #fff;
 }
 
-.our-work__link-contract:active {
+.our-work__btn-contract:active {
     background-color: #000;
 }
 
@@ -470,15 +481,3 @@ path {
 input[type="checkbox"] {
     cursor: pointer;
 }
-
-
-/* .imgr {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
-.swiper-slide {
-    position: relative;
-} */
