@@ -6,10 +6,10 @@ window.addEventListener('DOMContentLoaded', function() {
             el: '.swiper-pagination',
             clickable: true,
         },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false,
+        // },
 
     });
     document.querySelectorAll('.our-work__btn').forEach(function(workBtn) {

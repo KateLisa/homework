@@ -6,48 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../evclid/styles/styles.css">
     <title>Evclid site</title>
-    <script src="/JS/index.js">
+    <script src="../evclid/JS/index.js">
     </script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"> -->
     <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script>
-        $(function() {
-            $("#accordion").accordion();
-        });
-    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="main-container">
             <div class="header__menu">
-                <img class="header__logo" src="/img/Logo.jpg" alt="logo evclid">
-                <nav class="">
+                <img class="burger" src="../evclid/img/burger.svg" alt="menu">
+                <img class="header__logo" src="../evclid/img/Logo.jpg" alt="logo evclid">
+                <nav class="header__items_btn">
                     <ul class="header__items">
                         <li class="header__item"><a href="#" class="header__link"> О нас</a></li>
                         <li class="header__item"><a href="#" class="header__link"> Проекты</a></li>
                         <li class="header__item"><a href="#" class="header__link"> Этапы</a></li>
                         <li class="header__item"><a href="#" class="header__link"> Отзывы</a></li>
                         <li class="header__item"><a href="#" class="header__link"> Контакты</a></li>
-                        <li class="header__item header__search"></li>
                     </ul>
+                    <button class="header__item header__search"></button>
                 </nav>
             </div>
         </div>
     </header>
     <main class="main">
-        <div class="container">
+        <div class="main-container">
             <section class="swiper">
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img src="/img/sviper1.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="/img/sviper2.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="/img/sviper3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../evclid/img/sviper1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../evclid/img/sviper2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../evclid/img/sviper3.jpg" alt=""></div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-inform">
@@ -63,7 +59,7 @@
                     прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
                     качества экспериментов.</div>
                 <div class="about-us__boxes">
-                    <div class="about_us__container-img"><img src="/img/Rectangle 2.jpg" alt="about us" class="about-us__img">
+                    <div class="about_us__container-img"><img src="../evclid/img/Rectangle 2.jpg" alt="about us" class="about-us__img">
                         <div class="about-us__img-background">
                             <div class="about-us__imgtext"> Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
                             </div> <a href="#" class="about-us__link"> Подробнее</a>
@@ -107,7 +103,7 @@
                                 <button class="our-work__btn-contract"> Договор</button>
                             </div>
                         </div>
-                        <img class="our-work__img" src="/img/step1.jpg" alt="how we are working">
+                        <img class="our-work__img" src="../evclid/img/step1.jpg" alt="how we are working">
                     </div>
                 </div>
                 <div class="our-work__cards" data-target="two">
@@ -121,7 +117,7 @@
                                 <button class="our-work__btn-contract"> Договор</button>
                             </div>
                         </div>
-                        <img class="our-work__img" src="/img/step2.jpg" alt="how we are working">
+                        <img class="our-work__img" src="../evclid/img/step2.jpg" alt="how we are working">
                     </div>
                 </div>
                 <div class="our-work__cards" data-target="tree">
@@ -137,7 +133,7 @@
                                 <button class="our-work__btn-contract"> Договор</button>
                             </div>
                         </div>
-                        <img class="our-work__img" src="/img/step3.jpg" alt="how we are working">
+                        <img class="our-work__img" src="../evclid/img/step3.jpg" alt="how we are working">
                     </div>
                 </div>
                 <div class="our-work__cards" data-target="four">
@@ -152,49 +148,82 @@
                                 <button class="our-work__btn-contract"> Договор</button>
                             </div>
                         </div>
-                        <img class="our-work__img" src="/img/step4.jpg" alt="how we are working">
+                        <img class="our-work__img" src="../evclid/img/step4.jpg" alt="how we are working">
                     </div>
                 </div>
-
                 <h2 class="our-work__title title">Часто задаваемые вопросы</h2>
-                <div class="our-work__questions" id="accordion">
-                    <h3 class="our-work__question">Из чего формируется конечная стоимость проекта?</h3>
-                    <div>
-                        <p>
-                            Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно
-                            новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
-                            нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов. Приятно, граждане,
-                            наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены в целые
-                            кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете.
-                        </p>
+                <div class="our-work__questions accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Из чего формируется конечная стоимость проекта?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно
+                                новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие
+                                нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов. Приятно, граждане,
+                                наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены
+                                в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете.
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="our-work__question">У меня есть свой проект. Сможем ли мы его доработать / реализовать?
-                    </h3>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, iste iure voluptatibus repudiandae ullam accusamus laudantium. Fugit sint et dolores neque doloribus rerum magni eligendi, minus at, veniam ea. Facilis?
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                У меня есть свой проект. Сможем ли мы его доработать / реализовать?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="our-work__question accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="our-work__question">Я выбираю между разными компаниями. В чём ваше отличие?
-                    </h3>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, iste iure voluptatibus repudiandae ullam accusamus laudantium. Fugit sint et dolores neque doloribus rerum magni eligendi, minus at, veniam ea. Facilis?
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                Я выбираю между разными компаниями. В чём ваше отличие?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="our-work__question">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
-                    </h3>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, iste iure voluptatibus repudiandae ullam accusamus laudantium. Fugit sint et dolores neque doloribus rerum magni eligendi, minus at, veniam ea. Facilis?
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                though the transition does limit overflow.
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="our-work__question">Могу ли я вернуть деньги на каком-либо из этапов работ?
-                    </h3>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, iste iure voluptatibus repudiandae ullam accusamus laudantium. Fugit sint et dolores neque doloribus rerum magni eligendi, minus at, veniam ea. Facilis?
-                        </p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                Могу ли я вернуть деньги на каком-либо из этапов работ?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -202,10 +231,10 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="main-container">
             <div class="column">
                 <div class="footer__nav">
-                    <img class="footer__logo" src="/img/Logofooter.svg" alt="logo evclid">
+                    <img class="footer__logo" src="../evclid/img/Logofooter.svg" alt="logo evclid">
                     <nav>
                         <ul class="footer__nav-items">
                             <ul class="footer__nav-item"> <a href="#" class="footer__nav-link"> О нас</a> </ul>
@@ -268,9 +297,10 @@
                         <input class="form__field" type="e-mail" name="e-mail" value="E-mail*" />
                         <input class="form__field form__message" type="text" name="message" value="Сообщение" />
                         <input class="form__btn btn" type="submit" name="submit" value="Отправить данные" />
-                        <input class="form__checkbox" type="checkbox" checked name="agree"><label class="form__label" for="agree">Cогласен
-                            на
-                            обработку данных</label>
+                        <div class="checkbox-container">
+                            <input class="form__checkbox" type="checkbox" checked name="agree">
+                            <label class="form__label" for="agree">Cогласен на обработку данных</label>
+                        </div>
                     </form>
                 </div>
                 <div class="footer__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация
